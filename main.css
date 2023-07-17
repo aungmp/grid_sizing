@@ -1,0 +1,16 @@
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:1fr 1fr 1.5fr;
+    width: 400px;
+    height: 700px;
+    
+
+}
+.container > *{
+    background-color: blueviolet;
+    border:5px solid goldenrod;
+    font-size:3rem;
+    color:white;
+}

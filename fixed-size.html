@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixed Size Grid</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            grid-template-rows:1fr 2fr;
+            width:1200px;
+            height: 300px;
+        }
+        .container > *{
+            background-color: blueviolet;
+            border:5px solid goldenrod;
+            color: white;
+            font-size: 3rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fixed Size Grid</h1>
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fractional Size Grid</title>
+    <style>
+     .container{
+        display:grid;
+        grid-template-columns:1fr 2fr;
+        grid-template-rows:1fr 2fr;
+
+     }
+     .container>*{
+        background-color: blueviolet;
+        border: 5px solid goldenrod;
+        font-size: 3rem;
+        color:white;
+     }
+    </style>
+</head>
+<body>
+    <h1>Fractional Size Grid</h1>
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+    
+</body>
+</html>
